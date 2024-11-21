@@ -1,11 +1,11 @@
 export default function About(){
     return(
         <section className="about">
+                <h1>About us</h1>
             <div>
                 <video src="video.mp4" controls className="video"></video>
             </div>
             <div className="about-us">
-                <h4>About us</h4>
                 <p>At &lt;UH/&gt; (Pvt.), we believe in the power of innovation and sustainability. Our journey began with a simple yet profound vision: to make renewable energy accessible, affordable, and practical for everyone. Today, we stand as a trusted leader in the solar industry, helping countless individuals and businesses harness the immense power of the sun to create a brighter future.</p>
                 <h4>Who We Are</h4>
                 <p>We are a team of dedicated professionals driven by a passion for sustainable energy and cutting-edge technology. Our experts specialize in designing, installing, and maintaining high-performance solar systems that cater to a wide range of energy needs. With a focus on quality and customer satisfaction, we strive to deliver solutions that not only meet expectations but exceed them.</p>
