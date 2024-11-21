@@ -169,7 +169,7 @@ button.hamburger {
 @media(max-width: 480px) {
     .landing-title {
         font-size: 4.5vh;
-        margin-top: -450px;
+        margin-top: -520px;
     }
     .landing-intro {
         top: 80%;
