@@ -169,7 +169,7 @@ button.hamburger {
 @media(max-width: 480px) {
     .landing-title {
         font-size: 4.5vh;
-        margin-top: -400px;
+        margin-top: -450px;
     }
     .landing-intro {
         top: 80%;
@@ -178,6 +178,7 @@ button.hamburger {
         left: 5%;
     }
 }
+
 
 
 /* About */
