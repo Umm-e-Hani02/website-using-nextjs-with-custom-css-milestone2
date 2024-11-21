@@ -56,13 +56,15 @@ button.hamburger {
     ul {
         display: none; 
         flex-direction: column;
-        background-color: #2563eb;
+        background-color: rgba(7, 85, 255, 0.877);        
         position: absolute;
         top: 60px;
         right: 0;
         padding: 10px;
         width: 100%;
         text-align: center;
+        backdrop-filter: blur(2px); 
+
     }
 
     ul li {
@@ -169,7 +171,7 @@ button.hamburger {
 @media(max-width: 480px) {
     .landing-title {
         font-size: 4.5vh;
-        margin-top: -520px;
+        margin-top: -400px;
     }
     .landing-intro {
         top: 80%;
@@ -179,6 +181,18 @@ button.hamburger {
     }
 }
 
+@media(max-width: 360px) {
+    .landing-title {
+        font-size: 4vh;
+        margin-top: -270px;
+    }
+    .landing-intro {
+        top: 85%;
+        width: 95%;
+        font-size: 0.7rem;
+        left: 2.5%;
+    }
+}
 
 
 /* About */
@@ -234,7 +248,7 @@ button.hamburger {
 
 h1{
     text-align: center;
-    font-size: xx-large;
+    font-size: 2.3rem;
     font-weight: 700;
     padding: 10px;
 }
@@ -268,8 +282,7 @@ h1{
 }
 
 .services-card p{
-    padding-left: 7px;
-    padding-bottom: 10px;
+    padding: 17px;
 }
 
 .services{
@@ -308,21 +321,24 @@ h1{
 }
 
 
-/* Contact */
+ /* Contact */
 
 .contact-card{
     display: flex;
 }
-
 
 .contact{
     margin-left: -100px;
     margin-top: 100px;
 }
 
+.contact-heading{
+    font-size: xx-large;
+}
 
 .icon{
     height: 25px;
+    margin: 7px 0;
 }
 
 .location-img{
@@ -338,13 +354,19 @@ h1{
         padding-top: 10px;
         padding-bottom: 10px;
         margin: auto;
+        text-align: center;
+    }
+    .contact div{
+        margin-bottom: 20px;
     }
     .location-img{
         width: 100%;
         margin: auto;
     }
+    .icon{
+        margin: auto;
+    }
 }
-
 
 /* Footer */
 
