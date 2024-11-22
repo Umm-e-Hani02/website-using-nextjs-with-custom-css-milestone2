@@ -117,25 +117,9 @@ button.hamburger {
     margin-top: -500px;
 }
 
-.landing-intro {
-    position: absolute;
-    top: 60%;
-    left: 20%;
-    font-size: 1.2rem;
-    color: white;
-    text-align: center;
-    width: 60%;
-    line-height: 1.5;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
-}
-
 @media(max-width: 768px) {
     .landing-title {
         font-size: 5.5vh;
-    }
-    .landing-intro {
-        font-size: 1rem;
-        left: 14%;
     }
 }
 
@@ -144,11 +128,6 @@ button.hamburger {
         font-size: 5.2vh;
         margin-top: -450px;
     }
-    .landing-intro {
-        top: 65%;
-        width: 85%;
-        left: 7.5%;
-    }
 }
 
 @media(max-width: 530px) {
@@ -156,21 +135,11 @@ button.hamburger {
         font-size: 4.5vh;
         -webkit-text-stroke: 1.5px black;
     }
-    .landing-intro {
-        top: 60%;
-        width: 90%;
-        left: 5%;
-    }
 }
 
 @media(max-width: 465px) {
     .landing-title {
         font-size: 4vh;
-    }
-    .landing-intro {
-        width: 95%;
-        left: 2.5%;
-        font-size: 0.9rem;
     }
 } 
 
@@ -179,9 +148,6 @@ button.hamburger {
         font-size: 3.9vh;
         margin-top: -510px;
         -webkit-text-stroke: 1.3px black;
-    }
-    .landing-intro {
-        font-size: 0.8rem;
     }
 }
 
