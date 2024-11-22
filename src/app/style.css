@@ -129,71 +129,61 @@ button.hamburger {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
 
-@media(max-width: 1024px) {
-    .landing-title {
-        font-size: 6vh;
-        margin-top: -450px;
-    }
-    .landing-intro {
-        top: 65%;
-        width: 70%;
-        font-size: 1.1rem;
-        left: 15%;
-    }
-}
-
 @media(max-width: 768px) {
     .landing-title {
         font-size: 5.5vh;
-        margin-top: -400px;
     }
     .landing-intro {
-        top: 70%;
-        width: 75%;
         font-size: 1rem;
-        left: 12.5%;
+        left: 14%;
     }
 }
 
 @media(max-width: 600px) {
     .landing-title {
-        font-size: 5vh;
-        margin-top: -350px;
+        font-size: 5.2vh;
+        margin-top: -450px;
     }
     .landing-intro {
-        top: 75%;
+        top: 65%;
         width: 85%;
-        font-size: 0.9rem;
         left: 7.5%;
     }
 }
 
-@media(max-width: 480px) {
+@media(max-width: 530px) {
     .landing-title {
         font-size: 4.5vh;
-        margin-top: -400px;
+        -webkit-text-stroke: 1.5px black;
     }
     .landing-intro {
-        top: 80%;
+        top: 60%;
         width: 90%;
-        font-size: 0.8rem;
         left: 5%;
     }
 }
 
-@media(max-width: 360px) {
+@media(max-width: 465px) {
     .landing-title {
         font-size: 4vh;
-        margin-top: -270px;
     }
     .landing-intro {
-        top: 85%;
         width: 95%;
-        font-size: 0.7rem;
         left: 2.5%;
+        font-size: 0.9rem;
+    }
+} 
+
+@media(max-width:350px){
+    .landing-title {
+        font-size: 3.9vh;
+        margin-top: -510px;
+        -webkit-text-stroke: 1.3px black;
+    }
+    .landing-intro {
+        font-size: 0.8rem;
     }
 }
-
 
 /* About */
 
@@ -320,7 +310,6 @@ h1{
     }
 }
 
-
  /* Contact */
 
 .contact-card{
@@ -388,7 +377,6 @@ footer .social-links{
 
 footer .social-links p{
     font-size: 5rem;
-    
 }
 
 .links{
